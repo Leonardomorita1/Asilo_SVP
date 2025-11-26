@@ -94,7 +94,7 @@ if ($resultado && $resultado->num_rows > 0) {
                             <i class="bi bi-heart-pulse" style="font-size: 3rem; color: var(--color-primary);"></i>
                             <h5 class="card-title mt-3">Seja Voluntário</h5>
                             <p class="card-text">Dedique algumas horas do seu tempo para fazer a diferença na vida dos nossos idosos.</p>
-                            <a href="contato.html" class="btn btn-outline-primary mt-2">Saiba Mais</a>
+                            <a href="contato.html" class="btn btn-outline-primary mt-2">Entre em Contato</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ if ($resultado && $resultado->num_rows > 0) {
                             <i class="bi bi-briefcase" style="font-size: 3rem; color: var(--color-primary);"></i>
                             <h5 class="card-title mt-3">Trabalhe Conosco</h5>
                             <p class="card-text">Junte-se à nossa equipe profissional e construa uma carreira com propósito.</p>
-                            <a href="contato.html" class="btn btn-outline-primary mt-2">Ver Vagas</a>
+                            <a href="contato.html" class="btn btn-outline-primary mt-2">Entre em Contato</a>
                         </div>
                     </div>
                 </div>
