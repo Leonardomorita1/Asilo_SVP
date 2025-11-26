@@ -221,7 +221,7 @@
         </section>
 
         <!-- Call to Action -->
-        <section class="cta-section fade-in-up">
+        <section class="cta-section fade-in-down">
             <div class="container">
                 <h2 class="display-4 fw-bold mb-4">Faça Parte Desta História</h2>
                 <p class="lead mb-4">Sua ajuda pode transformar vidas. Doe, seja voluntário ou visite-nos!</p>
@@ -267,7 +267,7 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
                         const target = parseInt(entry.target.getAttribute('data-target'));
-                        const duration = 2000;
+                        const duration = 500;
                         const increment = target / (duration / 16);
                         let current = 0;
 
@@ -293,5 +293,6 @@
         document.addEventListener('DOMContentLoaded', animateCounters);
     </script>
 </body>
+
 
 </html>
